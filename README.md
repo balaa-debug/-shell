@@ -1,23 +1,15 @@
-# SHELL
+## Introduction
 
-## 1、介绍
+This project is a post-assignment for the operating systems course, and the project group consists of three individuals. The project implements some basic commands of a simple shell. Specifically, it includes commands like date, cat, touch, mkdir, cp, rm, mv, echo, cd, ls, and more. The "main" is the main entry point of the program. Running the executable file "main" will display a command prompt, prompting the user to input commands. Users can input commands as mentioned earlier and observe the corresponding results of their execution.
 
-​	本项目是操作系统课后作业，项目小组由三人组成。本项目实现简单shell的一些简单命令，具体实现了包括date、cat、touch、mkdir、cp、rm、mv、echo、cd、ls等命令。main是程序主入口，运行main可执行文件后会打印出命令提示符，提示用户输入命令，用户可以输入如前所述的命令，并看到相应运行结果。
+Within the SHELL directory, there is a subdirectory named "command," a C file "main.c" along with its executable file "main," and a README.md file. The "command" subdirectory contains the source code for some of the commands implemented in this project's shell. This "command" subdirectory further contains three subdirectories, each corresponding to the source code of a project member, as detailed in the documentation.
 
+## Usage
 
+The "main" file serves as the main entry point of the program.
 
-## 2、目录结构
+When using the "mkdir" command to create a directory, it's necessary to explicitly specify that a directory is being created. For example: "mkdir dir1/;" or "mkdir /home/balaa/dir2".
 
-​	SHELL目录下有一个子目录command，一个c文件main.c及其可执行文件main，一个README.md文件。其中command目录下保存了本项目shell中实现的一些命令的源码，command目录下又包含三个子目录，分别是本项目成员的源代码，具体可见文档中。
+The "rm" command must be used with the option "-rf", whether the file to be deleted is a regular file or a directory. For example: "rm -rf dir1/;" or "rm -rf file1".
 
-
-
-## 3、提示
-
-​	main文件为程序主入口。
-
-​	mkdir命令创建目录时必须显式指明所创建是目录，例：mkdir dir1/;	mkdir /home/balaa/dir2
-
-​	rm命令必须使用选项-rf，无论待删除文件是一般文件还是目录，例：rm -rf dir1/;	rm -rf file1
-
-​	mv命令修改目录名时仍然要指明待更改目录，例：mv dir1/ dir2/ 
+When using the "mv" command to rename a directory, you still need to specify the directory to be renamed. For example: "mv dir1/ dir2/".
