@@ -1,6 +1,6 @@
 ## Introduction
 
-This project is a post-assignment for the operating systems course, and the project group consists of three individuals. The project implements some basic commands of a simple shell. Specifically, it includes commands like date, cat, touch, mkdir, cp, rm, mv, echo, cd, ls, and more. The "main" is the main entry point of the program. Running the executable file "main" will display a command prompt, prompting the user to input commands. Users can input commands as mentioned earlier and observe the corresponding results of their execution.
+This project is a post-assignment for the operating systems course, and the project group consists of three individuals. The project implements some basic commands of a simple shell. Specifically, it includes commands like date, cat, `touch`, `mkdir`, `cp`, rm, mv, echo, cd, ls, and more. The "main" is the main entry point of the program. Running the executable file "main" will display a command prompt, prompting the user to input commands. Users can input commands as mentioned earlier and observe the corresponding results of their execution.
 
 Within the SHELL directory, there is a subdirectory named "command," a C file "main.c" along with its executable file "main," and a README.md file. The "command" subdirectory contains the source code for some of the commands implemented in this project's shell. This "command" subdirectory further contains three subdirectories, each corresponding to the source code of a project member, as detailed in the documentation.
 
